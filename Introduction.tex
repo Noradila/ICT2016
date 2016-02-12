@@ -10,10 +10,13 @@ Whitelisting, on the other hand, gives a set list of channels that avoids those 
 Many studies make use of channel whitelisting such as in Chrysso \cite{chrysso} and MiCMAC\cite{micmac}.
 
 Note that potentially Chrysso and MiCMAC could use all available channels.
-However, they do not have a mechanism to check the channel condition before using it for packet transmission. MiCMAC sees its performance degraded when using more than 4 channels, thus the decision on specifying 4 channels to be included in their experiment. 
-MiCMAC uses a different channel chosen at random each time it wakes up.
-It might require several wake up periods which is time consuming, before a clear channel is found from the 16 channels, to deliver the packet.  
-Chrysso on the other hand, switches the affected nodes to a new set of channels upon detecting interference which entails frequent channel switching if all channels are to be considered.
+MiCMAC sees its performance degraded when using more than 4 channels, thus the decision on specifying 4 channels to be included in their experiment. Chrysso on the other hand, switches the affected nodes to a new set of channels upon detecting interference which entails frequent channel switching if all channels are to be considered.
+
+%Note that potentially Chrysso and MiCMAC could use all available channels.
+%However, they do not have a mechanism to check the channel condition before using it for packet transmission. 
+%MiCMAC sees its performance degraded when using more than 4 channels, thus the decision on specifying 4 channels to be included in their experiment. 
+%MiCMAC uses a different channel chosen at random each time it wakes up. It might require several wake up periods which is time consuming, before a clear channel is found from the 16 channels, to deliver the packet.  
+%Chrysso on the other hand, switches the affected nodes to a new set of channels upon detecting interference which entails frequent channel switching if all channels are to be considered.
 
 It is clear that it is impossible to find a single channel guaranteed free from interference and there is no consensus on the best channel to use. Our work takes into account all available channels to utilise the spectrum and checks the condition of the channels before hopping to avoid those channels with interference. Several previous studies have developed a multichannel MAC layer but, despite the potential benefits none are yet widely implemented in real world deployments.
 
@@ -22,4 +25,4 @@ This paper presents a Multichannel Cross-Layer Routing Protocol (MCRP) which con
 We implement MCRP in Contiki \cite{contiki}, an open source operating system for WSNs and evaluate the protocol in Contiki network simulator, Cooja \cite{cooja}. 
 We demonstrate that MCRP avoids channels with interference which greatly reduces the effects of interference on the network.
 
-%The rest of the paper is organised as follows: Section \ref{sec:relatedwork} presents related work to multichannel protocols. Section \ref{sec:multichannel} describes the key idea of our proposed protocol, the high-level design, and the implementation of the protocol in Contiki. We describe and evaluate the experimental results in Section \ref{sec:evaluation}. Finally, we conclude in Section \ref{sec:conclusion}.
+The rest of the paper is organised as follows: Section \ref{sec:relatedwork} presents related work to multichannel protocols. Section \ref{sec:multichannel} describes the key idea of our proposed protocol, the high-level design, and the implementation of the protocol in Contiki. We describe and evaluate the experimental results in Section \ref{sec:evaluation}. Finally, we conclude in Section \ref{sec:conclusion}.
