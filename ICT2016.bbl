@@ -126,13 +126,6 @@ M.~Petrova, Lili Wu, P.~Mahonen, and J.~Riihijarvi.
 \newblock In {\em Networking, 2007. ICN '07. Sixth International Conference
   on}, pages 93--93, April 2007.
 
-\bibitem{emmac}
-A.~Sivanantha, B.~Hamdaoui, M.~Guizani, Xiuzhen Cheng, and T.~Znati.
-\newblock {EM-MAC}: An energy-aware multi-channel {MAC} protocol for multi-hop
-  wireless networks.
-\newblock In {\em Wireless Communications and Mobile Computing Conference
-  (IWCMC), 2012 8th International}, pages 1159--1164, Aug 2012.
-
 \bibitem{telosb-datasheet}
 Crossbow Technology.
 \newblock {TelosB} - {TelosB} mote platform.
