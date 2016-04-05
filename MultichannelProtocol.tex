@@ -59,10 +59,7 @@ The channel quality checking is invoked each time a node changes channel after r
 In the \emph{Probe Wait} state, node $N$ sends a \emph{Probe} message to each neighbour in turn. The neighbours respond to the message by sending eight packets to $N$ on the new channel $D$. 
 The buffer can accommodate eight packets at a time. As the packets might not be sent immediately due to wakes up and collisions, sending more packets would have the risk of being dropped. 
 The condition of the channel is further investigated through the number of retransmissions and packet collisions of the probing packets for accuracy of the channel condition. 
-
 If the probing process times out (because of some communication failure) or the number of probe packets received is above a threshold (currently set to 16, including retransmissions and collisions) then node $N$ immediately exits \emph{Probe Wait} state and reverts to channel $C$ its previous channel. 
-
-
 All neighbours are informed of the change back to channel $C$ and the LPBR is informed of the quality check failure with a summary of all probes received.
 If, on the other hand, all channel quality checks succeed, the change to channel $D$ becomes permanent for node $N$ and it informs the LPBR of the results of the probing (numbers of packets received) and the channel change.
 
