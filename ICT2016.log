@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.22)  5 APR 2016 14:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.22)  7 APR 2016 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,10 +506,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <Diagram1.pdf, id=14, 739.76375pt x 425.59pt>
 File: Diagram1.pdf Graphic file (type pdf)
  <use Diagram1.pdf>
-Package pdftex.def Info: Diagram1.pdf used on input line 45.
+Package pdftex.def Info: Diagram1.pdf used on input line 46.
 (pdftex.def)             Requested size: 252.94499pt x 145.51692pt.
 
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 45--46
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 46--47
  [][] 
  []
 
@@ -518,14 +518,14 @@ Overfull \hbox (0.94499pt too wide) in paragraph at lines 45--46
 File: experiments/single_channel.pdf Graphic file (type pdf)
 
 <use experiments/single_channel.pdf>
-Package pdftex.def Info: experiments/single_channel.pdf used on input line 26.
+Package pdftex.def Info: experiments/single_channel.pdf used on input line 27.
 (pdftex.def)             Requested size: 232.19843pt x 129.6453pt.
 
 <experiments/multi_channel.pdf, id=30, 361.35pt x 201.75375pt>
 File: experiments/multi_channel.pdf Graphic file (type pdf)
 
 <use experiments/multi_channel.pdf>
-Package pdftex.def Info: experiments/multi_channel.pdf used on input line 33.
+Package pdftex.def Info: experiments/multi_channel.pdf used on input line 34.
 (pdftex.def)             Requested size: 232.19843pt x 129.6453pt.
 ) (./Conclusion.tex [5 <./experiments/single_channel.pdf> <./experiments/multi_
 channel.pdf>]) (./ICT2016.bbl
@@ -563,7 +563,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICT2016.pdf (6 pages, 130436 bytes).
+Output written on ICT2016.pdf (6 pages, 130340 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
